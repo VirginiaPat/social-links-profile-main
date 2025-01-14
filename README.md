@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://your-solution-url.com)
-- Live Site URL: [Netlify](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/VirginiaPat/social-links-profile-main.git)
+- Live Site URL: [Netlify](https://social-links-profile-frontend-m-virgi.netlify.app/)
 
 ## My process
 
