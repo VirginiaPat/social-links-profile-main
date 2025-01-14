@@ -1,0 +1,132 @@
+/*********************************/
+/* FOR MOBILES */
+/*********************************/
+
+body {
+  padding: calc((16 / 16) * 1rem);
+  font-family: "Inter", Arial, sans-serif;
+  background-color: #141414;
+  font-weight: 400;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100svh;
+  gap: calc((20 / 16) * 1rem);
+}
+
+.card-container {
+  min-width: calc((327 / 16) * 1rem);
+  padding: calc((24 / 16) * 1rem);
+  border-radius: 12px;
+  background-color: #1f1f1f;
+  color: #fff;
+
+  line-height: 1.5;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  gap: calc((24 / 16) * 1rem);
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+}
+
+.avatar-img {
+  display: block;
+  height: auto;
+  max-width: calc((88 / 16) * 1rem);
+  border-radius: 100%;
+}
+
+.name-place-container {
+  display: flex;
+  flex-direction: column;
+  gap: calc((4 / 16) * 1rem);
+}
+
+.name-text {
+  font-size: calc((24 / 16) * 1rem);
+  font-weight: 600;
+}
+
+.place-text {
+  font-size: calc((14 / 16) * 1rem);
+  font-weight: 700;
+
+  color: #c5f82a;
+}
+
+.bio-container {
+}
+
+.bio-text {
+  font-size: calc((14 / 16) * 1rem);
+}
+
+.container-socials {
+}
+
+.list-socials {
+  list-style-type: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: calc((16 / 16) * 1rem);
+}
+
+.list-item-social {
+  background-color: #333333;
+  padding: calc((12 / 16) * 1rem);
+  border-radius: 8px;
+}
+
+.list-item-social a {
+  text-decoration: none;
+  font-size: calc((14 / 16) * 1rem);
+  font-weight: 700;
+}
+
+.list-item-social:hover,
+.list-item-social:focus {
+  background-color: #c5f82a;
+  color: #333333;
+}
+
+/*********************************/
+/* FOR TABLETS 768px (768/16=48) */
+/*********************************/
+
+@media (min-width: 48em) {
+  .card-container {
+    min-width: calc((456 / 16) * 1rem);
+    padding: calc((40 / 16) * 1rem);
+  }
+}
+
+/*************************************/
+/* FOR DESKTOPS 1440px (1440/16=90) */
+/************************************/
+
+@media (min-width: 90em) {
+  .card-container {
+    min-width: calc((384 / 16) * 1rem);
+    padding: calc((40 / 16) * 1rem);
+  }
+}
+
+/* FOOTER-------------------------------------------------- */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: #fff;
+}
+.attribution a {
+  color: #c5f82a;
+}
