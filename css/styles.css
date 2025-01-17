@@ -17,7 +17,7 @@ body {
 }
 
 .card-container {
-  min-width: calc((327 / 16) * 1rem);
+  width: calc((327 / 16) * 1rem);
   padding: calc((24 / 16) * 1rem);
   border-radius: 12px;
   background-color: #1f1f1f;
@@ -39,7 +39,8 @@ body {
 }
 
 .avatar-img {
-  display: block;
+  display: flex;
+  justify-content: center;
   height: auto;
   max-width: calc((88 / 16) * 1rem);
   border-radius: 100%;
@@ -63,14 +64,8 @@ body {
   color: #c5f82a;
 }
 
-.bio-container {
-}
-
 .bio-text {
   font-size: calc((14 / 16) * 1rem);
-}
-
-.container-socials {
 }
 
 .list-socials {

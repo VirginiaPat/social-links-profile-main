@@ -12,6 +12,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
   - [Built with](#built-with)
   - [Useful resources](#useful-resources)
 - [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -49,3 +50,7 @@ Users should be able to:
 - Frontend Mentor - [@VirginiaPat](https://www.frontendmentor.io/profile/VirginiaPat)
 - Github - [VirginiaPat ](https://github.com/VirginiaPat)
 - Netlify - [VirginiaPat](https://app.netlify.com/teams/virginia-patrika/sites)
+
+## Acknowledgments
+
+Special thanks to Kamran Kiani [@kaamiik](https://www.frontendmentor.io/profile/kaamiik) for his feedback.
